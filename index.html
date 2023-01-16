@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="assets/javascript/mediaPlayer.js" defer></script>
+    <title>MusicPlayer</title>
+</head>
+<body>
+<main class="container">
+    <span class="range"></span>
+    <div class="img"></div>
+    <h2 class="title"></h2>
+    <span class="author"></span>
+    <div class="progress">
+        <div class="progressBar"></div>
+    </div>
+    <div class="time">
+        <span class="currentTime"></span>
+        <span class="timer duration"></span>
+    </div>
+    <audio src=""></audio>
+    <div class="mediaPlayerBar">
+        <div class="actions">
+            <button class="btn btnPrevious"><i class="bi bi-skip-start-fill"></i></button>
+            <button class="btn btnPlay"><i class="bi bi-play-fill"></i></button>
+            <button class="btn btnNext"><i class="bi bi-skip-end-fill"></i></button>
+        </div>
+        <div class="sound">
+            <i class="bi bi-volume-up-fill"></i>
+            <input type="range" class="progressBarSound" min="0" max="100" value="100">
+        </div>
+    </div>
+</main>
+</body>
+</html>
